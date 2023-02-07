@@ -1,0 +1,177 @@
+body {
+    margin: auto;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+  width: 1310px;
+}
+
+main {
+    background-color: white;
+}
+
+p {
+  font-size: 20px;
+  color: #000000;
+}
+
+h1 {
+    color: #007D7B;
+    display: inline-block;
+}
+
+nav {
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    
+  
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+nav a:hover {
+  color: #007D7B;
+}
+
+nav li {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+}
+
+nav h2 {
+    visibility: hidden;
+}
+
+#about-img {
+    width: 850px;
+    float: left;
+}
+
+.about {
+    float: center;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#about {
+    font-size: 20px;
+    text-align: center;
+}
+
+#gallery h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  float: center;
+}
+
+#gallery {
+    text-align: center;
+    
+}
+
+.right {
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+}
+
+.tk-gallery-short {
+        height: 281px;
+        width: 420px;
+}
+
+.tk-gallery-tall {
+       height: 630px;
+       width: 420px;
+}
+
+.top-left {
+  font-size: 16px;
+  color: #000;
+}
+
+.bottom-left-w {
+    font-size: 16px;
+}
+
+.top-right {
+  font-size: 16px;
+}
+
+.row-1 {
+  clear: both;
+  width: 420px;
+  height: 281px;
+}
+
+.row-2 {
+  width: 420px;
+  height: 630px;
+}
+
+.row-3 {
+  width: 420px;
+  height: 281px;
+}
+
+.row-4 {
+  width: 420px;
+  height: 281px;
+}
+
+#contact {
+  background-color:#000000;
+  color:#FFFFFF;
+  clear:both;
+  font-size: 25px;
+}
+form {
+  text-align:center;
+}
+input {
+  width:850px;
+  padding:10px;
+  display:block;
+  margin: 0 auto;
+}
+label {
+  font-size:16px;
+  text-transform:uppercase;
+}
+#name, #email, #message {
+  color:#000000;
+}
+input::placeholder {
+  color:#007D7B;
+  font-size:16px;
+  text-transform:uppercase;
+}
+button {
+    background-color:#007D7B;
+    size:425px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform:uppercase;
+    padding:16px 212px;
+    border-radius: 16px;
+}
+
+footer {
+    color:#FFFFFF;
+    font-size:16px;
+    text-align:center;
+}
