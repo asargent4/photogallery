@@ -1,127 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Photo Gallery</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TK Photography</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="wrapper">
-    <header>
-       <h1>TK Photography</h1>
-  <div id="container">
-      </div>
-    <nav>
-        <h2>Main Navigation</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    </header>
+    
+        <header>
+            <h1>TK Photography</h1>
+            <nav>
+                <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Top</a></li>
+                </ul>
+            </nav>
+    
+        </header>
 
-    <main><!--main content starts here-->
-        
-
-        <section id="about">
-            <h2 class="right">About</h2><!--Section start here?-->
-
-                <p class="left">Hello!<br>
-                I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
-        </section>
-
-        <section id="gallery">
-            <h2 class="center">Gallery</h2>
-                <p class="center">Here are some highlights of my work. 
-                   The locations and year are in the caption.</p>
-            
-                   <div class="img-cont1">
-                    <figure class="img2">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Chile.png" alt="Picture of landscape in Chile">
-                      <figcaption id="figcap1">Chile, 2001</figcaption>
-                    </figure>
-                  
-                    <figure class="img3">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Guatemala.png" alt="Picture of landscape in Guatemala">
-                      <figcaption id="figcap2">Guatemala, 1997</figcaption>
-                    </figure>
-  
-                    <figure class="img4">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Hawaii.png" alt="Picture of landscape in Hawaii">
-                      <figcaption id="figcap3">Hawaii, 2010</figcaption>
-                    </figure>
-                </div>
-                
-                <div class="img-cont2">
-                    <figure class="img5">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Iran.png" alt="Picture of landscape in Iran">
-                      <figcaption id="figcap4">Iran, 1999</figcaption>
-                    </figure>
-  
-                    <figure class="img6">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Ireland.png" alt="Picture of landscape in Ireland">
-                      <figcaption id="figcap5">Ireland, 2012</figcaption>
-                    </figure>
-  
-                    <figure class="img7">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Italy.png" alt="Picture of landscape in Italy">
-                      <figcaption id="figcap6">Italy, 2015</figcaption>
-                    </figure>
-                </div>
-                
-                <div class ="img-cont3">
-                    <figure class="img8">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Moab-Desert.png" alt="Picture of landscape in Moab-Desert">
-                      <figcaption id="figcap7">Moab-Desert, 2020</figcaption> 
-                    </figure>
-  
-                    <figure class="img9">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Rocky-Mountains.png" alt="Picture of landscape in Rocky-Mountains">
-                      <figcaption id="figcap8">Rocky-Mountains, 2009</figcaption>
-                    </figure>
-  
-                    <figure class="img10">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Switzerland.png" alt="Picture of lanscape in Switzerland">
-                      <figcaption id="figcap9">Switzerland, 2014</figcaption>
-                    </figure>
-            </div>
-            <div class="img-cont4">
-                    <figure class="img11">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/UK.png" alt="Picture of landscape in UK">
-                      <figcaption id="figcap10">UK, 2005</figcaption>
-                    </figure>
-  
-                    <figure class="img12">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/USA.png" alt="Picture of landscape in USA">
-                      <figcaption id="figcap11">USA, 2021</figcaption>
-                    </figure>
-  
-                    <figure class="img13">
-                      <img src="http://www.public.asu.edu/~cedge2/GIT-337/PhotoGallery/images/Wyoming.png" alt="Picture of landscape in Wyoming">
-                      <figcaption id="figcap12">Wyoming, 2021</figcaption>
-                    </figure>
-        </section>
+        <main>
+            <h2>About</h2>
+            <p>Hello!</p>
+            <p>I&apos;m TK and I&apos;m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it&apos;s taken me all over the world.</p>
         </main>
 
-      <section id="contact">
-            <form alt="Your contact information">
+        <section id="galleryContainer">
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+    
+            <div id="imgGallery">
+                <figure>
+                    <img src="image/Chile.png" alt="Relaxing beach scene.">
+                    <figcaption>Chile, 2001</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Guatemala.png" alt="Flowering mexican heather lining stair path">
+                    <figcaption class="topCaption">Guatemala, 1997</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Hawaii.png" alt="Aerial view of island surrounded by open water.">
+                    <figcaption>Hawaii, 2010</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Iran.png" alt="Flowering red shrubs and grass">
+                    <figcaption class="blackText blackTopCaption">Iran, 1999</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Ireland.png" alt="Mountain view of trees and grass">
+                    <figcaption class="blackText blackTopCaption">Ireland, 2012</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Italy.png" alt="Overlooking a lake and mountain trails.">
+                    <figcaption class="blackText">Italy, 2015</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Moab-Desert.png" alt="Mountain view of rocks at sunset">
+                    <figcaption>Moab Desert, 2020</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Rocky-Mountains.png" alt="Ocean waves crashing into tall pillar of rocks">
+                    <figcaption class="blackText topCaption">Rocky Mountains, 2009</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Switzerland.png" alt="Mountains covered in snow. ">
+                    <figcaption class="blackText topCaption">Switzerland, 2014</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/UK.png" alt="Low lying valleys covered in greenery.">
+                    <figcaption class="blackText topCaption">UK, 2005</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="image/USA.png" alt="Yellow and red flowers patches amongst tall grass.">
+                    <figcaption class="blackText topCaption">USA, 2021</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="image/Wyoming.png" alt="Lakeside view of evergreen trees and mountains.">
+                    <figcaption class="topCaption">Wyoming, 2021</figcaption>
+                </figure>
+
+                <div><!-- I'm an empty div. --></div>
+
+            </div>
+
+        </section>
+
+        <section id="contact">
             <h2>Contact</h2>
-              <p><h5>Please fill out this form and I’ll connect with you soon.</h5></p>
+            <form>
+                
+                <p>Please fill out this form and I&apos;ll connect with you soon.</p>
+                <label for="name">Name</label> 
+                <input type="text" id="name" placeholder="Your full name" required>
 
-            <label for="name">Name</label><br>
-            <input name="name" id="name" type="text" placeholder="Your full name"><br>
+                <label for="email">Email</label> 
+                <input type="email" id="email" placeholder="Enter your email address">
 
-            <label for="Email">Email</label><br>
-            <input name="email" id="email" type="email" placeholder="Enter your email address"><br>
+                <label for="message">Message</label> 
+                <input type="text" id="message" placeholder="What can I help you with?">
 
-            <label for="Message">Message</label><br>
-            <input name="message" id="message" type="text" placeholder="What can I help you with?"><br>
-
-            <button type="submit" class="button">Submit</button>
+                <button id="submit">Submit</button>
+                    
             </form>
-</section>
-        <footer>
-          <p>Copyright 2021 TK Photography</p>
-        </footer>
-    </div>
+    </section>
+    <footer>
+        <p><small>Copyright 2021 TK Photography</small></p>
+    </footer>
+</div>
+
+    
+
+
 </body>
 </html>
