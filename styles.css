@@ -112,25 +112,149 @@ nav h2 {
   font-size: 16px;
 }
 
-.row-1 {
-  clear: both;
+.img2, .img3, .img4 {
+  float: left;
   width: 420px;
   height: 281px;
+  margin: 6px;
+  padding:12.5px;
+  position: relative;
+  top: -20px;
+  right: 5px;
 }
 
-.row-2 {
+#figcap1 {
+  position: relative;
+  top: -280px;
+  left: 5px;
+}
+
+#figcap2 {
+  position: relative;
+  top: -280px;
+  left: 5px;
+  color: white;
+}
+
+#figcap3 {
+  position: relative;
+  top: -25px;
+  left: 310px;
+  color: white;
+}
+
+.img-cont1 {
+  clear: both;
+  overflow: hidden;
+  position: relative;
+}
+
+.img5, .img6, .img7 {
+  float: left;
   width: 420px;
   height: 630px;
+  margin: 6px;
+  padding: 12.5px;
+  position: relative;
+  top: -20px;
+  right: 5px;
 }
 
-.row-3 {
-  width: 420px;
-  height: 281px;
+#figcap4 {
+  position: relative;
+  top: -630px;
+  left: 5px;
 }
 
-.row-4 {
+#figcap5 {
+  position: relative;
+  top: -30px;
+  color: white;
+  left:310px;
+}
+
+#figcap6 {
+  position: relative;
+  top: -30px;
+  color: white;
+  left: 10px;
+}
+
+.img-cont2 {
+  clear: both;
+  overflow: hidden;
+  margin: auto;
+}
+
+.img8, .img9, .img10 {
+  float: left;
   width: 420px;
   height: 281px;
+  margin: 6px;
+  padding: 12.5px;
+  position: relative;
+  top: -20px;
+  right: 5px;
+}
+
+#figcap7 {
+  position: relative;
+  top: -30px;
+  color: white;
+  left: 250px;
+}
+
+#figcap8 {
+  position: relative;
+  top: -280px;
+  left: 6px;
+}
+#figcap9 {
+  position: relative;
+  top: -30px;
+  left: 10px;
+}
+
+.img-cont3 {
+  clear: both;
+  overflow: hidden;
+  margin: auto;
+}
+
+.img11, .img12, .img13 {
+  float: left;
+  width: 420px;
+  height: 281px;
+  margin: 6px;
+  padding: 12.5px;
+  position: relative;
+  bottom: 21px;
+  right: 5px;
+}
+#figcap10 {
+  position: relative;
+  top: -30px;
+  color: white;
+  left: 330px;
+}
+
+#figcap11 {
+  position: relative;
+  top: -275px;
+  color: white;
+  left: 5px;
+}
+#figcap12 {
+  position: relative;
+  top: -275px;
+  color: white;
+  left: 5px;
+}
+
+.img-cont4 {
+  clear: both;
+  overflow: hidden;
+  margin: auto;
 }
 
 #contact {
