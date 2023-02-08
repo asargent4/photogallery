@@ -100,48 +100,17 @@ text-align: right;
 text-align: left;
 }
 
-.tk-gallery-short {
-      height: 281px;
-      width: 420px;
+.column {
+  flex: 33.33%;
+  padding: 6px;
 }
 
-.tk-gallery-tall {
-     height: 630px;
-     width: 420px;
+*{
+  box-sizing: border-box;
 }
 
-.top-left {
-font-size: 16px;
-color: #000;
-}
-
-.bottom-left-w {
-  font-size: 16px;
-}
-
-.top-right {
-font-size: 16px;
-}
-
-.row-1 {
-clear: both;
-width: 420px;
-height: 281px;
-}
-
-.row-2 {
-width: 420px;
-height: 630px;
-}
-
-.row-3 {
-width: 420px;
-height: 281px;
-}
-
-.row-4 {
-width: 420px;
-height: 281px;
+.row {
+  display: flex;
 }
 
 #contact {
