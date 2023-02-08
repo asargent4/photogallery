@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Andrew Sargent">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TK Photography</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="wrapper">
@@ -13,11 +14,11 @@
         <header>
             <h1>TK Photography</h1>
             <nav>
+                <h2>Main Navigation</h2>
                 <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Top</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
     
@@ -26,105 +27,98 @@
         <main>
             <h2>About</h2>
             <p>Hello!</p>
-            <p>I&apos;m TK and I&apos;m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it&apos;s taken me all over the world.</p>
+            <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it&apos;s taken me all over the world.</p>
         </main>
 
-        <section id="galleryContainer">
+        <section id="Container">
             <h2>Gallery</h2>
-            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+            <p class="center">Here are some highlights of my work. The locations and year are in the caption.</p>
     
-            <div id="imgGallery">
+            <div id="Gallery">
                 <figure>
-                    <img src="image/Chile.png" alt="Relaxing beach scene.">
+                    <img src="Chile.png" alt="Relaxing beach scene.">
                     <figcaption>Chile, 2001</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Guatemala.png" alt="Flowering mexican heather lining stair path">
+                    <img src="Guatemala.png" alt="Flowering mexican heather lining stair path">
                     <figcaption class="topCaption">Guatemala, 1997</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Hawaii.png" alt="Aerial view of island surrounded by open water.">
+                    <img src="Hawaii.png" alt="Aerial view of island surrounded by open water.">
                     <figcaption>Hawaii, 2010</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Iran.png" alt="Flowering red shrubs and grass">
+                    <img src="Iran.png" alt="Flowering red shrubs and grass">
                     <figcaption class="blackText blackTopCaption">Iran, 1999</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Ireland.png" alt="Mountain view of trees and grass">
+                    <img src="Ireland.png" alt="Mountain view of trees and grass">
                     <figcaption class="blackText blackTopCaption">Ireland, 2012</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Italy.png" alt="Overlooking a lake and mountain trails.">
+                    <img src="Italy.png" alt="Overlooking a lake and mountain trails.">
                     <figcaption class="blackText">Italy, 2015</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Moab-Desert.png" alt="Mountain view of rocks at sunset">
+                    <img src="Moab-Desert.png" alt="Mountain view of rocks at sunset">
                     <figcaption>Moab Desert, 2020</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Rocky-Mountains.png" alt="Ocean waves crashing into tall pillar of rocks">
+                    <img src="Rocky-Mountains.png" alt="Ocean waves crashing into tall pillar of rocks">
                     <figcaption class="blackText topCaption">Rocky Mountains, 2009</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Switzerland.png" alt="Mountains covered in snow. ">
+                    <img src="Switzerland.png" alt="Mountains covered in snow. ">
                     <figcaption class="blackText topCaption">Switzerland, 2014</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/UK.png" alt="Low lying valleys covered in greenery.">
+                    <img src="UK.png" alt="Low lying valleys covered in greenery.">
                     <figcaption class="blackText topCaption">UK, 2005</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="image/USA.png" alt="Yellow and red flowers patches amongst tall grass.">
+                    <img src="USA.png" alt="Yellow and red flowers patches amongst tall grass.">
                     <figcaption class="blackText topCaption">USA, 2021</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="image/Wyoming.png" alt="Lakeside view of evergreen trees and mountains.">
+                    <img src="Wyoming.png" alt="Lakeside view of evergreen trees and mountains.">
                     <figcaption class="topCaption">Wyoming, 2021</figcaption>
                 </figure>
-
-                <div><!-- I'm an empty div. --></div>
 
             </div>
 
         </section>
 
         <section id="contact">
+            <form alt="Your contact information">
             <h2>Contact</h2>
-            <form>
-                
-                <p>Please fill out this form and I&apos;ll connect with you soon.</p>
-                <label for="name">Name</label> 
-                <input type="text" id="name" placeholder="Your full name" required>
+              <p><h5>Please fill out this form and I’ll connect with you soon.</h5></p>
 
-                <label for="email">Email</label> 
-                <input type="email" id="email" placeholder="Enter your email address">
+            <label for="name">Name</label><br>
+            <input name="name" id="name" type="text" placeholder="Your full name"><br>
 
-                <label for="message">Message</label> 
-                <input type="text" id="message" placeholder="What can I help you with?">
+            <label for="Email">Email</label><br>
+            <input name="email" id="email" type="email" placeholder="Enter your email address"><br>
 
-                <button id="submit">Submit</button>
-                    
+            <label for="Message">Message</label><br>
+            <input name="message" id="message" type="text" placeholder="What can I help you with?"><br>
+
+            <button type="submit" class="button">Submit</button>
             </form>
-    </section>
+</section>
     <footer>
         <p><small>Copyright 2021 TK Photography</small></p>
     </footer>
 </div>
-
-    
-
-
 </body>
 </html>
