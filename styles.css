@@ -257,6 +257,52 @@ nav h2 {
   margin: auto;
 }
 
+h1 {
+  color: #007D7B;
+  height: 40px;
+  display: inline;
+}
+
+ul {
+  display: inline; 
+}
+
+main {
+  background-color: white;
+}
+
+.img {
+  position: relative;
+}
+
+.pic .side-about {
+  display: inline;
+}
+
+.top-about {
+  padding: 10px;
+}
+
+.top-about,p {
+  color: black;
+}
+
+main h2 {
+  color: black;
+}
+
+footer h2 {
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+footer p {
+  color: white;
+}
+
 #contact {
   background-color:#000000;
   color:#FFFFFF;
