@@ -292,11 +292,6 @@ footer{
         width: 80%;
     }
 } 
-
-@media screen and (min-width:1300px) {
-    #wrapper{
-        width: 1300px;
-       }
     
     nav ul{
         justify-content: right;
@@ -310,9 +305,6 @@ footer{
         grid-template-columns: repeat(3, 1fr);
     }
    
-    div:empty{
-        display: none;
-    }
 
     #Gallery>figure:nth-child(1){
         grid-column: 1/2;
@@ -408,9 +400,8 @@ footer{
         color:#FFFFFF;
         font-size:16px;
         text-align:center;
-    }Gallery>figure:nth-child(12){
+    }#Gallery>figure:nth-child(12){
         grid-column: 3/4;
         grid-row: 4/5;
     } 
-} 
 
