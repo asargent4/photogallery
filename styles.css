@@ -1,12 +1,63 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}*/
+
 body {
   margin: auto;
   background-color: #000000;
   font-family: Arial, Helvetica, sans-serif;
-width: 1300px;
+  width: 1300px;
+  position: center;
+  content: center;
 }
 
 main {
   background-color: white;
+  width: 1300px;
 }
 
 #wrapper{
@@ -15,17 +66,20 @@ main {
   grid-template-columns: 1fr;
   margin: 0 auto;
   width: 1300px;
-  height: 70px;
+  height: 110px;
 }
 
 p {
-font-size: 20px;
+font-size: 1.25em;
 color: #000000;
+position: relative; left: 10px;
 }
 
 h1 {
   color: #007D7B;
   display: inline-block;
+  font-size: 3em;
+  position: relative; left: 10px;
 }
 
 nav {
@@ -42,7 +96,6 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
-  
 }
 
 nav a:hover {
@@ -61,7 +114,7 @@ nav h2 {
 
 #about-img {
   width: 850px;
-  float: left;
+  float: center;
 }
 
 .about {
@@ -70,46 +123,76 @@ nav h2 {
 }
 
 #about h2 {
-  font-size: 40px;
+  font-size: 2em;
   text-align: center;
   text-transform: uppercase;
   
 }
 
 #about {
-  font-size: 20px;
+  font-size: 1em;
   text-align: center;
 }
 
 #gallery h2 {
 text-transform: uppercase;
-font-size: 40px;
+font-size: 2em;
 float: center;
 }
 
 #gallery {
   text-align: center;
-  
-}
-
-.right {
-text-align: right;
 }
 
 .left{
 text-align: left;
 }
 
-.column {
-  flex: 33.33%;
+.text{
+  text-align: center;
+}
+
+.column-1{
+  flex: 100%;
   padding: 6px;
+  width: 100px;
+  position: relative; left: -40px;
 }
 
-*{
-  box-sizing: border-box;
+.column-2{
+  flex: 100%;
+  padding: 6px;
+  width: 100px;
+  position: relative; left: -40px;
 }
 
-.row {
+.column-3{
+  flex: 100%;
+  padding: 6px;
+  width: 100px;
+  position: relative; left: -40px;
+}
+
+.column-5{
+  flex: 10%;
+  padding: 6px;
+  width: 100px;
+  position: relative; left: -40px;
+}
+
+.row{
+  display: flex;
+}
+
+.row-2{
+  display: flex;
+}
+
+.row-3{
+  display: flex;
+}
+
+.row-5{
   display: flex;
 }
 
@@ -118,28 +201,36 @@ background-color:#000000;
 color:#FFFFFF;
 clear:both;
 font-size: 25px;
+font-weight: lighter;
 }
+
 form {
 text-align:center;
 }
+
 input {
 width:850px;
 padding:10px;
 display:block;
 margin: 0 auto;
+font-weight: bold;
 }
+
 label {
 font-size:16px;
 text-transform:uppercase;
 }
+
 #name, #email, #message {
 color:#000000;
 }
+
 input::placeholder {
 color:#007D7B;
 font-size:16px;
 text-transform:uppercase;
 }
+
 button {
   background-color:#007D7B;
   size:425px;
@@ -151,8 +242,26 @@ button {
 }
 
 footer {
-  color:#FFFFFF;
+  color:#000;
   font-size:16px;
   text-align:center;
+  background-color: #fff;
 }
 
+@media screen and (min-width:485px) {
+  #wrapper{
+      width: 485px;
+  }
+} 
+
+@media screen and (min-width:880px) {
+    #wrapper{
+        width: 880px;
+    }
+} 
+
+@media screen and (min-width:1300px) {
+    #wrapper{
+        width: 1300px;
+       }
+} 
